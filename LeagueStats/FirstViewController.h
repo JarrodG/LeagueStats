@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
 @interface FirstViewController : UIViewController
+- (IBAction)getIDFromName:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 
 @end
